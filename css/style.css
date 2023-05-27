@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    background: rgb(251, 249, 249);
+    text-align: center;
+    color: gray;
+    padding: 30px 0px;
+}
+.header{
+    background: url("../img/woman-workout-iphone.jpg") no-repeat center;
+    min-height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    color: whitesmoke;
+    padding: 60px;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+}
+.col{
+    width: 50%;
+    margin: 20px;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+h4{
+    font-family: 'Anton', sans-serif;
+    font-size:x-large;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+aside a{
+    color: #f31a61;
+}
+.textorojo{
+    color: #f31a61;
+}
+.align-items-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.mt-50{
+    margin-top: 50px;  
+  }
+.mb-50{
+    margin-bottom: 50px;  
+  }
+.container h6{
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+    font-size: medium;
+    text-align: center;
+    white-space: pre;
+  }
+.text-center{
+    margin: 120px;
+}
+.footer {
+    min-height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(251, 249, 249);
+    color: grey
+}
+.footer h3{
+    color: black;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+.footer p{
+    padding: 5px;
+}
+.footer .row{
+    padding: 10px;
+}
